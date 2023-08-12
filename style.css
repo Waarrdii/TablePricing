@@ -62,7 +62,7 @@ table {
     position: relative;
     width: 100%;
     background-color: #4394f4;
-    height: 350px;
+    height: 250px;
     left: 0;
     position: absolute;
     top: 0;
@@ -91,19 +91,6 @@ table {
     padding: 25px;
     text-transform: uppercase;
     text-align: center;
-}
-
-@media (min-width:900px){
-    .pricing-table{
-        flex-direction: row;
-    }
-    .pricing-plan{
-        border-bottom: none;
-        border-right: 1px solid #e1f1ff;
-    }
-    .pricing-plan:last-child{
-        border-right: none;
-    }
 }
 
 .pricing-plan{
@@ -135,4 +122,20 @@ table {
 
 .pricing-features-item:last-child{
     border-bottom: 1px solid #e1f1ff;
+}
+
+
+/* Responsive PC Desktop */
+
+@media (min-width:900px){
+    .pricing-table{
+        flex-direction: row;
+    }
+    .pricing-plan{
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+    }
+    .pricing-plan:last-child{
+        border-right: none;
+    }
 }
