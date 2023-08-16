@@ -57,6 +57,11 @@ table {
     box-sizing: inherit;
 }
 
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .background{
     padding: 0 25px 25px;
     position: relative;
@@ -118,13 +123,37 @@ table {
 .pricing-features-item{
     border-top: 1px solid #e1f1ff;
     padding: 15px 0;
+    line-height: 1.5;
 }
 
 .pricing-features-item:last-child{
     border-bottom: 1px solid #e1f1ff;
 }
 
+.pricing-price{
+    font-size: 32px;
+    color: #016FF9;
+    font-weight: 700;
+    display: block;
+}
 
+.pricing-button{
+    border: 1px solid #4394f4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    color: #4394f4;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.pricing-button:hover{
+    background-color: #4394f4;
+    color: #fff;
+}
 /* Responsive PC Desktop */
 
 @media (min-width:900px){
